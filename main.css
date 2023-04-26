@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    background: #2C3E50;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.wrapper{
+    max-width: 1000px;
+    text-align: center;
+}
+.first_block{
+    transition: 500ms;
+
+}
+.title{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #3498DB;
+}
+#area{
+    width: 815px;
+height: 280px;
+border: 2px solid #727272;
+border-radius: 6px;
+background: none;
+outline: none;
+color: white;
+padding: 30px;
+margin-top: 50px;
+margin-bottom: 30px;resize: none;
+}
+
+.generate{
+    font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFC6C6;
+padding: 8px 25px;
+border: 1px solid #535353;
+transition: 400ms;
+}
+.generate:hover{
+    color: #535353;
+transition: 400ms;
+border: 1px solid #FFC6C6;
+    background: #FFC6C6;
+}
+
+a{
+    background: none;
+    cursor: pointer;
+    border-radius: 28px;
+outline: none;
+}
+
+.clear{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #CAFFC6;
+    border: 1px solid #5D735C;
+    border-radius: 28px;
+transition: 400ms;
+padding: 8px 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clear:hover{
+    color: #5D735C;
+transition: 400ms;
+border: 1px solid #CAFFC6;
+    background: #CAFFC6;
+}
+
+.return_back{
+    font-weight: 700;
+font-size: 20px;
+padding: 8px 25px;
+line-height: 24px;
+transition: 400ms;
+color: #63ABFF;
+border: 1px solid #002C35;
+border-radius: 28px;
+}
+
+.return_back:hover{
+    color: #002C35;
+transition: 400ms;
+border: 1px solid #63ABFF;
+    background: #63ABFF;
+}
+.second_block{
+    display: none;
+}
+.item{
+    display: flex;
+    align-items: center;
+    border: 1px solid #1e1f1e;
+    width: 166px;
+ transition: 200ms;   
+ margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    font-weight: 700;
+font-size: 20px;
+ transition: 200ms;   
+ line-height: 24px;
+padding: 5px;
+color: #FFFFFF;
+}
+
+.out{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+margin-bottom: 50px;
+justify-content: center;
+}
+
+.selected_item {
+ color: #8F0000;
+ transition: 200ms;   
+}
